@@ -1,8 +1,8 @@
 * {
     margin: 0;
     padding: 4px;
-    box-sizing: border-box;
     text-align: center;
+    
 }
 h1{
     font-size:400%;
@@ -20,12 +20,31 @@ h2{
     font-size: 250%;
 }
 
+div{
+    padding: 3px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: #EEEEEE;
+}
+
+.buttons{
+    display: flex;
+}
+
+ .buttons div{
+    display: flex;
+    height: 28px;
+    flex: 1; 
+    padding-top: 6px;
+    justify-content: center;
+ }
 
 a {
     color: black;
     border-radius: 15px;
     border: black 2px solid;
     text-decoration: none;
+    
 }
 
 a:hover {
@@ -59,14 +78,6 @@ a:visited{
     text-decoration: underline black 1px;
 
 }
-
-.recipe-button{
-    display: block;
-    font-size: 120%;
-    text-decoration: none;
-}
-
-
 ol li{
     text-align: justify;
     margin: auto;
